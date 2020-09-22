@@ -1,0 +1,1084 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+   <link rel="stylesheet" href="css/bootstrap-grid.css">
+   <link rel="stylesheet" href="css/style.css">
+   <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap" rel="stylesheet">
+   <title>Cordiant</title>
+</head>
+<body>
+
+   <header class="header">
+      <div class="container p-0">
+         <div class="row">
+            <div class="header__inner">
+               <div class="header__logo">
+                  <div><img class="header__foto" src="img/header/cord.svg" alt="#"><img src="img/header/auto.svg" alt="#"></div>
+               </div>
+               <div class="header__nav" id="nav">
+                  <a class="header__link" href="#" data-scroll="#about">ОБ АКЦИИ</a>
+                  <a class="header__link" href="#" data-scroll="#test">ПРОЙТИ ТЕСТ</a>
+                  <a class="header__link" href="#" data-scroll="#mod">МОДЕЛИ</a>
+                  <a class="header__link" href="#" data-scroll="#question">ВОПРОС-ОТВЕТ</a>
+                  <a class="header__link" href="#" data-scroll="#contact">ОБРАТНАЯ СВЯЗЬ</a>
+               </div>
+               <div class="header__burger">
+                  <span class="header__burger-top"></span>
+                  <span class="header__burger-middle"></span>
+                  <span class="header__burger-bottom"></span>
+               </div>
+            </div>
+         </div>
+      </div>
+   </header>
+
+   <div class="intro">
+      <div class="container p-0">
+         <div class="row m-0">
+            <div class="intro__inner">
+               <div class="intro__title">ЗАБЕРИ ПРОМОКОД <br> НА СКИДКУ 15%</div>
+               <div class="intro__subtitle">Новые шины Cordiant с <span>15% скидкой</span> - это реально!<br>Самое время позаботиться о новых шинах, ведь сейчас при покупке<br>комплекта шин Cordiant вы можете выиграть комплект дисков.</div>
+               <button class="intro__btn" data-scroll="#test">ЗАБРАТЬ ПРОМОКОД</button>
+            </div>
+            <span>*Предложение действует до 30 августа 2020 года. Количество промокодов ограничено</span>
+         </div>
+      </div>
+   </div>
+
+   <div class="promo" >
+      <div class="container">
+         <div class="promo__inner">
+            <div class="promo__title" id="about">Получи секретный промокод на скидку 15%</div>
+            <div class="promo__subtitle">Что мне необходимо сделать для этого?</div>
+            <div class="row promo__content">
+               <div class="col-12 col-sm-6 col-lg-4 promo__wrap">
+                  <img src="img/promo/item.png" alt="#">
+                  <div class="promo__item">
+                     <div class="promo__number">1</div>
+                     <div class="promo__text">Пройди короткий тест или <br> смотри видео и найди <br> кодовое слово</div>
+                  </div>
+                  <img class="promo__line" src="img/promo/Line.svg">
+               </div>
+               <div class="col-12 col-sm-6 col-lg-4 promo__wrap">
+                  <img src="img/promo/item-2.png" alt="#">
+                  <div class="promo__item">
+                     <div class="promo__number">2</div>
+                     <div class="promo__text">Введи кодовое слово <br> и получи промокод</div>
+                  </div>
+                  <img class="promo__line" src="img/promo/Line-2.svg">
+               </div>
+               <div class="col-12 col-sm-12 col-lg-4 promo__wrap">
+                  <img src="img/promo/item-3.png" alt="#">
+                  <div class="promo__item">
+                     <div class="promo__number">3</div>
+                     <div class="promo__text">Используй промокод при <br> покупке шин Cordiant на <br> сайте <a href="https://koleso.ru/" target="_blank">Koleso.ru</a></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <div class="test" id="test">
+      <div class="container">
+         <div class="row">
+            <div class="col-12 col-lg-6">
+               <div class="test__slider">
+                  <div class="test__inner">
+                     <div class="test__title">Узнай, какие шины подойдут именно тебе <br> и получи свой промокод на скидку 15%</div>
+                     <div class="test__subtitle">
+                        <span>Современные и технологичные шины Cordiant – это <br> надежное сцепление с дорогой даже в самых <br> суровых условиях эксплуатации.</span>
+                        <span>Пройди небольшой тест и выясни, какая именно <br> модель шин подойдет под твой стиль вождения, а в <br> конце теста получи промокод на скидку 15%</span>
+                     </div>
+                     <button class="test__btn" data-scroll="#test">УЗНАТЬ</button>
+                  </div>
+                  <form class="test__inner">
+                     <div class="test__slider-title">1) Подбираем шины для сезона:</div>
+                     <div class="test__slider-wrap">
+                        <input class="test__slider-input" type="radio" id="s" name="time" checked>
+                        <label class="test__slider-label" for="s">лето</label>
+                     </div>
+                     <div class="test__slider-wrap">
+                        <input class="test__slider-input" type="radio" id="w" name="time">
+                        <label class="test__slider-label" for="w">зима</label>
+                     </div>
+                     <button class="test__btn">ДАЛЕЕ</button>
+                  </form>
+                  <form class="test__inner">
+                     <div class="test__slider-title">2) Ваш автомобиль:</div>
+                     <div class="test__slider-wrap">
+                        <input class="test__slider-input" type="radio" id="easy" name="car" checked>
+                        <label class="test__slider-label" for="easy">легковой</label>
+                     </div>
+                     <div class="test__slider-wrap">
+                        <input class="test__slider-input" type="radio" id="SUV" name="car">
+                        <label class="test__slider-label" for="SUV">SUV</label>
+                     </div>
+                     <button class="test__btn">ДАЛЕЕ</button>
+                  </form>
+                  <form class="test__inner">
+                     <div class="test__slider-title">3) Какой диаметр колесных дисков:</div>
+                     <div class="test__slider-wrap">
+                        <input class="test__slider-input" type="radio" id="13" name="Rad" checked>
+                        <label class="test__slider-label" for="13">13</label>
+                     </div>
+                     <div class="test__slider-wrap">
+                        <input class="test__slider-input" type="radio" id="14" name="Rad">
+                        <label class="test__slider-label" for="14">14</label>
+                     </div>
+                     <div class="test__slider-wrap">
+                        <input class="test__slider-input" type="radio" id="15" name="Rad">
+                        <label class="test__slider-label" for="15">15</label>
+                     </div>
+                     <div class="test__slider-wrap">
+                        <input class="test__slider-input" type="radio" id="16" name="Rad">
+                        <label class="test__slider-label" for="16">16</label>
+                     </div>
+                     <div class="test__slider-wrap">
+                        <input class="test__slider-input" type="radio" id="17" name="Rad">
+                        <label class="test__slider-label" for="17">17</label>
+                     </div>
+                     <div class="test__slider-wrap">
+                        <input class="test__slider-input" type="radio" id="18" name="Rad">
+                        <label class="test__slider-label" for="18">18</label>
+                     </div>
+                     <button class="test__btn">ДАЛЕЕ</button>
+                  </form>
+                  <form class="test__inner">
+                     <div class="test__slider-title">4) Где чаще ездите:</div>
+                     <div class="test__slider-wrap">
+                        <input class="test__slider-input" type="radio" id="city" name="place" checked>
+                        <label class="test__slider-label" for="city">по городу</label>
+                     </div>
+                     <div class="test__slider-wrap">
+                        <input class="test__slider-input" type="radio" id="unc" name="place">
+                        <label class="test__slider-label" for="unc">по сельской местности</label>
+                     </div>
+                     <div class="test__slider-wrap">
+                        <input class="test__slider-input" type="radio" id="offr" name="place">
+                        <label class="test__slider-label" for="offr">по бездорожью</label>
+                     </div>
+                     <div class="test__slider-wrap">
+                        <input class="test__slider-input" type="radio" id="ro" name="place">
+                        <label class="test__slider-label" for="ro">по трассе между населенными пунктами</label>
+                     </div>
+                     <button class="test__btn">ДАЛЕЕ</button>
+                  </form>
+                  <form class="test__inner">
+                     <div class="test__slider-title">5) Качество дорожного покрытия там, где Вы чаще ездите:</div>
+                     <div class="test__slider-wrap">
+                        <input class="test__slider-input" type="radio" id="good" name="qn" checked>
+                        <label class="test__slider-label" for="good">отличное</label>
+                     </div>
+                     <div class="test__slider-wrap">
+                        <input class="test__slider-input" type="radio" id="soo" name="qn">
+                        <label class="test__slider-label" for="soo">хорошее</label>
+                     </div>
+                     <div class="test__slider-wrap">
+                        <input class="test__slider-input" type="radio" id="goo" name="qn">
+                        <label class="test__slider-label" for="goo">удовлетворительное</label>
+                     </div>
+                     <div class="test__slider-wrap">
+                        <input class="test__slider-input" type="radio" id="bad" name="qn">
+                        <label class="test__slider-label" for="bad">плохое</label>
+                     </div>
+                     <button class="test__btn">ДАЛЕЕ</button>
+                  </form>
+                  <form class="test__inner">
+                     <div class="test__slider-title">6) Ваш стиль вождения:</div>
+                     <div class="test__slider-wrap">
+                        <input class="test__slider-input" type="radio" id="5" name="styl" checked>
+                        <label class="test__slider-label" for="5">вожу аккуратно и безопасно</label>
+                     </div>
+                     <div class="test__slider-wrap">
+                        <input class="test__slider-input" type="radio" id="4" name="styl">
+                        <label class="test__slider-label" for="4">маневрирую динамично, но ответственно</label>
+                     </div>
+                     <div class="test__slider-wrap">
+                        <input class="test__slider-input" type="radio" id="3" name="styl">
+                        <label class="test__slider-label" for="3">друзья считают, что я вожу агрессивно</label>
+                     </div>
+                     <button class="test__btn">РЕЗУЛЬТАТ</button>
+                  </form>
+               </div>
+            </div>
+            <div class="col-12 col-lg-6">
+               <div class="test__slider">
+                  <div class="test__wrap">
+                     <div class="test__title">Смотрите видео о преимуществах <br> шин Cordiant</div>
+                     <div class="slider">
+                        <img src="img/test/test.png" alt="#">
+                        <img src="img/test/test.png" alt="#">
+                        <img src="img/test/test.png" alt="#">
+                        <img src="img/test/test.png" alt="#">
+                        <img src="img/test/test.png" alt="#">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <div class="gift">
+      <div class="container">
+         <div class="gift__inner">
+            <div class="gift__block">
+               <div class="gift__title">Введи кодовое слово и получи промокод <br> на покупку шин Cordiant со скидкой</div>
+               <div class="gift__number">15%</div>
+            </div>
+            <form class="gift__form" action="">
+               <input class="gift__input" type="text" placeholder="Введите кодовое слово">
+               <input class="gift__btn" type="submit" value="ПОЛУЧИТЬ ПРОМОКОД">
+            </form>
+         </div>
+      </div>
+   </div>
+
+   <div class="info">
+      <div class="container">
+         <div class="info__inner">
+            <div class="info__title">Выиграй комплект дисков</div>
+            <div class="info__subtitle">Купите любые шины Cordiant на сайте <a href="https://koleso.ru/" target="_blank">Koleso.ru</a>, отправьте до 31 <br> августа 2020 года фото чека через форму ниже - мы разыграем среди <br> вас специальные призы - 4 комплекта дисков X'trike.</div>
+            <div class="info__nav">
+               <img class="info__nav-icon" src="img/info/i.svg" alt="#">
+               <div class="info__nav-title">Подробнее о дисках</div>
+               <div class="info__text-hidden">
+                  <span>X'trike, изготовленные по прогрессивной технологии, соответствуют российским и международным стандартам качества. Адаптированные для российских дорог и прошедшие успешные испытания <br> в России, гарантируют широкую применимость более чем к 200 самых популярных за последние 6 лет моделям автомобилей.</span>
+                  <span>Благодаря инновациям при изготовлении X'trike позволяют максимального облегчить конструкцию <br> колеса при сохранении заданной прочности. <br> Диски X`trike отвечают самым высоким требованиям, с точки зрения надежности (качества), <br> ценового позиционирования, вариантов дизайна и цветовых решений.</span>
+                  <button class="info__text-btn"><img id="infoPopup" src="img/page/close.svg" alt="#"></button>
+               </div>
+            </div>
+            <form class="info__form" action="#" method="#">
+               <div class="info__form-group">
+                  <input class="info__input" type="text" placeholder="ФИО">
+                  <input class="info__input" type="text" placeholder="Телефон">
+               </div>
+               <input class="info__input info__input-email" type="text" placeholder="E-mail">
+               <div class="info__form-group-btn">
+                  <input class="info__input-file inputfile" type="file" name="#" id="file">
+                  <label class="info__input-label" for="file"><img src="img/info/file.svg" alt="#"><span id="field-text">ЗАГРУЗИТЬ ЧЕК</span></label>
+                  <input class="info__input-btn" type="submit" value="ОТПРАВИТЬ">
+               </div>
+            </form>
+         </div>
+      </div>
+   </div>
+
+   <div class="product">
+      <div class="container">
+         <div class="product__inner">
+            <div class="promo__title" id="mod">Какие модели шин участвуют в акции?</div>
+            <div class="product__nav">
+               <button class="product__btn product__btn-active-left winter-btn">ЗИМА</button>
+               <button class="product__btn summer-btn">ЛЕТО</button>
+            </div>
+            <div class="product__wrap" id="winter">
+               <div class="product__block row">
+                  <div class="col-6 col-xl-3 product__item">
+                     <button class="product__close">
+                        <img src="img/page/close.svg" alt="X">
+                     </button>
+                     <div class="product__wrap-hover">
+                        <div class="product__foto">
+                           <img src="img/product/winter-BUSINESS-CW.png" alt="#">
+                           <img class="product__nav-icon" src="img/product/i.svg" alt="i">
+                        </div>
+                        <div class="product__content">
+                           <div class="product__item-title">CORDIANT BUSINESS CW</div>
+                           <div class="product__item-subtitle">Для активного стиля вождения</div>
+                        </div>
+                        <div class="product__item-hidden">
+                           <div class="product__item-nav">
+                              <button class="product__item-btn product__item-btn-active">R13</button>
+                              <button class="product__item-btn">R14</button>
+                              <button class="product__item-btn">R15</button>
+                              <button class="product__item-btn">R16</button>
+                              <button class="product__item-btn">R17</button>
+                              <button class="product__item-btn">R18</button>
+                           </div>
+                           <div class="product__item-wrap">
+                              <div class="product__item-load">
+                                 <div>Нагрузка</div>
+                                 <span>86</span>
+                              </div>
+                              <div class="product__item-speed">
+                                 <div>Скорость</div>
+                                 <span>H</span>
+                              </div>
+                              <div class="product__item-link">
+                                 <a href="#">КУПИТЬ</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-6 col-xl-3 product__item">
+                     <button class="product__close">
+                        <img src="img/page/close.svg" alt="X">
+                     </button>
+                     <div class="product__wrap-hover">
+                        <div class="product__foto">
+                           <img src="img/product/winter-CORDIANT-POLAR.png" alt="#">
+                           <img class="product__nav-icon" src="img/product/i.svg" alt="i">
+                        </div>
+                        <div class="product__content">
+                           <div class="product__item-title">CORDIANT POLAR 2</div>
+                           <div class="product__item-subtitle">Фрикционная шина для комфортного вождения в мягких условиях</div>
+                        </div>
+                        <div class="product__item-hidden">
+                           <div class="product__item-nav">
+                              <button class="product__item-btn product__item-btn-active">R13</button>
+                              <button class="product__item-btn">R14</button>
+                              <button class="product__item-btn">R15</button>
+                              <button class="product__item-btn">R16</button>
+                              <button class="product__item-btn">R17</button>
+                              <button class="product__item-btn">R18</button>
+                           </div>
+                           <div class="product__item-wrap">
+                              <div class="product__item-load">
+                                 <div>Нагрузка</div>
+                                 <span>86</span>
+                              </div>
+                              <div class="product__item-speed">
+                                 <div>Скорость</div>
+                                 <span>H</span>
+                              </div>
+                              <div class="product__item-link">
+                                 <a href="#">КУПИТЬ</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-6 col-xl-3 product__item">
+                     <button class="product__close">
+                        <img src="img/page/close.svg" alt="X">
+                     </button>
+                     <div class="product__wrap-hover">
+                        <div class="product__foto">
+                           <img src="img/product/winter-CORDIANT-POLAR-SL.png" alt="#">
+                           <img class="product__nav-icon" src="img/product/i.svg" alt="i">
+                        </div>
+                        <div class="product__content">
+                           <div class="product__item-title">CORDIANT POLAR SL</div>
+                           <div class="product__item-subtitle">Знакомый характер в новом воплощении</div>
+                        </div>
+                        <div class="product__item-hidden">
+                           <div class="product__item-nav">
+                              <button class="product__item-btn product__item-btn-active">R13</button>
+                              <button class="product__item-btn">R14</button>
+                              <button class="product__item-btn">R15</button>
+                              <button class="product__item-btn">R16</button>
+                              <button class="product__item-btn">R17</button>
+                              <button class="product__item-btn">R18</button>
+                           </div>
+                           <div class="product__item-wrap">
+                              <div class="product__item-load">
+                                 <div>Нагрузка</div>
+                                 <span>86</span>
+                              </div>
+                              <div class="product__item-speed">
+                                 <div>Скорость</div>
+                                 <span>H</span>
+                              </div>
+                              <div class="product__item-link">
+                                 <a href="#">КУПИТЬ</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-6 col-xl-3 product__item">
+                     <button class="product__close">
+                        <img src="img/page/close.svg" alt="X">
+                     </button>
+                     <div class="product__wrap-hover">
+                        <div class="product__foto">
+                           <img src="img/product/winter-CORDIANT-SNOWMAX.png" alt="#">
+                           <img class="product__nav-icon" src="img/product/i.svg" alt="i">
+                        </div>
+                        <div class="product__content">
+                           <div class="product__item-title">CORDIANT SNOWMAX</div>
+                           <div class="product__item-subtitle">Для активного стиля вождения</div>
+                        </div>
+                        <div class="product__item-hidden">
+                           <div class="product__item-nav">
+                              <button class="product__item-btn product__item-btn-active">R13</button>
+                              <button class="product__item-btn">R14</button>
+                              <button class="product__item-btn">R15</button>
+                              <button class="product__item-btn">R16</button>
+                              <button class="product__item-btn">R17</button>
+                              <button class="product__item-btn">R18</button>
+                           </div>
+                           <div class="product__item-wrap">
+                              <div class="product__item-load">
+                                 <div>Нагрузка</div>
+                                 <span>86</span>
+                              </div>
+                              <div class="product__item-speed">
+                                 <div>Скорость</div>
+                                 <span>H</span>
+                              </div>
+                              <div class="product__item-link">
+                                 <a href="#">КУПИТЬ</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>   
+               </div>
+               <div class="product__block row">
+                  <div class="col-6 col-xl-3 product__item">
+                     <button class="product__close">
+                        <img src="img/page/close.svg" alt="X">
+                     </button>
+                     <div class="product__wrap-hover">
+                        <div class="product__foto">
+                           <img src="img/product/winter-CORDIANT-SNOWCROSS.png" alt="#">
+                           <img class="product__nav-icon" src="img/product/i.svg" alt="i">
+                        </div>
+                        <div class="product__content">
+                           <div class="product__item-title">CORDIANT SNOW CROSS</div>
+                           <div class="product__item-subtitle">Покоритель зимы</div>
+                        </div>
+                        <div class="product__item-hidden">
+                           <div class="product__item-nav">
+                              <button class="product__item-btn product__item-btn-active">R13</button>
+                              <button class="product__item-btn">R14</button>
+                              <button class="product__item-btn">R15</button>
+                              <button class="product__item-btn">R16</button>
+                              <button class="product__item-btn">R17</button>
+                              <button class="product__item-btn">R18</button>
+                           </div>
+                           <div class="product__item-wrap">
+                              <div class="product__item-load">
+                                 <div>Нагрузка</div>
+                                 <span>86</span>
+                              </div>
+                              <div class="product__item-speed">
+                                 <div>Скорость</div>
+                                 <span>H</span>
+                              </div>
+                              <div class="product__item-link">
+                                 <a href="#">КУПИТЬ</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-6 col-xl-3 product__item">
+                     <button class="product__close">
+                        <img src="img/page/close.svg" alt="X">
+                     </button>
+                     <div class="product__wrap-hover">
+                        <div class="product__foto">
+                           <img src="img/product/winter-CORDIANT-SNOWCROSS2.png" alt="#">
+                           <img class="product__nav-icon" src="img/product/i.svg" alt="i">
+                        </div>
+                        <div class="product__content">
+                           <div class="product__item-title">CORDIANT SNOW CROSS 2</div>
+                           <div class="product__item-subtitle">Знакомый характер в новом воплощении</div>
+                        </div>
+                        <div class="product__item-hidden">
+                           <div class="product__item-nav">
+                              <button class="product__item-btn product__item-btn-active">R13</button>
+                              <button class="product__item-btn">R14</button>
+                              <button class="product__item-btn">R15</button>
+                              <button class="product__item-btn">R16</button>
+                              <button class="product__item-btn">R17</button>
+                              <button class="product__item-btn">R18</button>
+                           </div>
+                           <div class="product__item-wrap">
+                              <div class="product__item-load">
+                                 <div>Нагрузка</div>
+                                 <span>86</span>
+                              </div>
+                              <div class="product__item-speed">
+                                 <div>Скорость</div>
+                                 <span>H</span>
+                              </div>
+                              <div class="product__item-link">
+                                 <a href="#">КУПИТЬ</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-6 col-xl-3 product__item">
+                     <button class="product__close">
+                        <img src="img/page/close.svg" alt="X">
+                     </button>
+                     <div class="product__wrap-hover">
+                        <div class="product__foto">
+                           <img src="img/product/winter-CORDIANT-WINTER.png" alt="#">
+                           <img class="product__nav-icon" src="img/product/i.svg" alt="i">
+                        </div>
+                        <div class="product__content">
+                           <div class="product__item-title">CORDIANT WINTER DRIVE</div>
+                           <div class="product__item-subtitle">Шина для безопасного вождения в условиях переменчивой погоды в городе!</div>
+                        </div>
+                        <div class="product__item-hidden">
+                           <div class="product__item-nav">
+                              <button class="product__item-btn product__item-btn-active">R13</button>
+                              <button class="product__item-btn">R14</button>
+                              <button class="product__item-btn">R15</button>
+                              <button class="product__item-btn">R16</button>
+                              <button class="product__item-btn">R17</button>
+                              <button class="product__item-btn">R18</button>
+                           </div>
+                           <div class="product__item-wrap">
+                              <div class="product__item-load">
+                                 <div>Нагрузка</div>
+                                 <span>86</span>
+                              </div>
+                              <div class="product__item-speed">
+                                 <div>Скорость</div>
+                                 <span>H</span>
+                              </div>
+                              <div class="product__item-link">
+                                 <a href="#">КУПИТЬ</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-6 col-xl-3 product__item">
+                     <button class="product__close">
+                        <img src="img/page/close.svg" alt="X">
+                     </button>
+                     <div class="product__wrap-hover">
+                        <div class="product__foto">
+                           <img src="img/product/winter-CORDIANT-WINTER2.png" alt="#">
+                           <img class="product__nav-icon" src="img/product/i.svg" alt="i">
+                        </div>
+                        <div class="product__content">
+                           <div class="product__item-title">CORDIANT WINTER DRIVE 2</div>
+                           <div class="product__item-subtitle">Для активного стиля вождения</div>
+                        </div>
+                        <div class="product__item-hidden">
+                           <div class="product__item-nav">
+                              <button class="product__item-btn product__item-btn-active">R13</button>
+                              <button class="product__item-btn">R14</button>
+                              <button class="product__item-btn">R15</button>
+                              <button class="product__item-btn">R16</button>
+                              <button class="product__item-btn">R17</button>
+                              <button class="product__item-btn">R18</button>
+                           </div>
+                           <div class="product__item-wrap">
+                              <div class="product__item-load">
+                                 <div>Нагрузка</div>
+                                 <span>86</span>
+                              </div>
+                              <div class="product__item-speed">
+                                 <div>Скорость</div>
+                                 <span>H</span>
+                              </div>
+                              <div class="product__item-link">
+                                 <a href="#">КУПИТЬ</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>   
+               </div>
+               <div class="product__link">
+                  <a href="#">КУПИТЬ ШИНЫ</a>
+               </div>
+            </div>
+            <div class="product__wrap" id="summer">
+               <div class="product__block row">
+                  <div class="col-6 col-xl-3 product__item">
+                     <button class="product__close">
+                        <img src="img/page/close.svg" alt="X">
+                     </button>
+                     <div class="product__wrap-hover">
+                        <div class="product__foto">
+                           <img src="img/product/winter-CORDIANT-COMFORT-2.png" alt="#">
+                           <img class="product__nav-icon" src="img/product/i.svg" alt="i">
+                        </div>
+                        <div class="product__content">
+                           <div class="product__item-title">CORDIANT COMFORT 2</div>
+                           <div class="product__item-subtitle">Удовольствие от вождения на несовершенных дорогах</div>
+                        </div>
+                        <div class="product__item-hidden">
+                           <div class="product__item-nav">
+                              <button class="product__item-btn product__item-btn-active">R13</button>
+                              <button class="product__item-btn">R14</button>
+                              <button class="product__item-btn">R15</button>
+                              <button class="product__item-btn">R16</button>
+                              <button class="product__item-btn">R17</button>
+                              <button class="product__item-btn">R18</button>
+                           </div>
+                           <div class="product__item-wrap">
+                              <div class="product__item-load">
+                                 <div>Нагрузка</div>
+                                 <span>86</span>
+                              </div>
+                              <div class="product__item-speed">
+                                 <div>Скорость</div>
+                                 <span>H</span>
+                              </div>
+                              <div class="product__item-link">
+                                 <a href="#">КУПИТЬ</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-6 col-xl-3 product__item">
+                     <button class="product__close">
+                        <img src="img/page/close.svg" alt="X">
+                     </button>
+                     <div class="product__wrap-hover">
+                        <div class="product__foto">
+                           <img src="img/product/winter-CORDIANT-SPORT-2.png" alt="#">
+                           <img class="product__nav-icon" src="img/product/i.svg" alt="i">
+                        </div>
+                        <div class="product__content">
+                           <div class="product__item-title">CORDIANT SPORT 2</div>
+                           <div class="product__item-subtitle">Для активного стиля вождения</div>
+                        </div>
+                        <div class="product__item-hidden">
+                           <div class="product__item-nav">
+                              <button class="product__item-btn product__item-btn-active">R13</button>
+                              <button class="product__item-btn">R14</button>
+                              <button class="product__item-btn">R15</button>
+                              <button class="product__item-btn">R16</button>
+                              <button class="product__item-btn">R17</button>
+                              <button class="product__item-btn">R18</button>
+                           </div>
+                           <div class="product__item-wrap">
+                              <div class="product__item-load">
+                                 <div>Нагрузка</div>
+                                 <span>86</span>
+                              </div>
+                              <div class="product__item-speed">
+                                 <div>Скорость</div>
+                                 <span>H</span>
+                              </div>
+                              <div class="product__item-link">
+                                 <a href="#">КУПИТЬ</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-6 col-xl-3 product__item">
+                     <button class="product__close">
+                        <img src="img/page/close.svg" alt="X">
+                     </button>
+                     <div class="product__wrap-hover">
+                        <div class="product__foto">
+                           <img src="img/product/winter-CORDIANT-ALL-TERRAIN.png" alt="#">
+                           <img class="product__nav-icon" src="img/product/i.svg" alt="i">
+                        </div>
+                        <div class="product__content">
+                           <div class="product__item-title">CORDIANT ALL-TERRAIN</div>
+                           <div class="product__item-subtitle">Комфорт и безопасность на любой поверхности!</div>
+                        </div>
+                        <div class="product__item-hidden">
+                           <div class="product__item-nav">
+                              <button class="product__item-btn product__item-btn-active">R13</button>
+                              <button class="product__item-btn">R14</button>
+                              <button class="product__item-btn">R15</button>
+                              <button class="product__item-btn">R16</button>
+                              <button class="product__item-btn">R17</button>
+                              <button class="product__item-btn">R18</button>
+                           </div>
+                           <div class="product__item-wrap">
+                              <div class="product__item-load">
+                                 <div>Нагрузка</div>
+                                 <span>86</span>
+                              </div>
+                              <div class="product__item-speed">
+                                 <div>Скорость</div>
+                                 <span>H</span>
+                              </div>
+                              <div class="product__item-link">
+                                 <a href="#">КУПИТЬ</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-6 col-xl-3 product__item">
+                     <button class="product__close">
+                        <img src="img/page/close.svg" alt="X">
+                     </button>
+                     <div class="product__wrap-hover">
+                        <div class="product__foto">
+                           <img src="img/product/winter-CORDIANT-CA.png" alt="#">
+                           <img class="product__nav-icon" src="img/product/i.svg" alt="i">
+                        </div>
+                        <div class="product__content">
+                           <div class="product__item-title">CORDIANT BUSINESS CA</div>
+                           <div class="product__item-subtitle">Модель Cordiant Business CA отличается комфортностью и низким уровнем шума.</div>
+                        </div>
+                        <div class="product__item-hidden">
+                           <div class="product__item-nav">
+                              <button class="product__item-btn product__item-btn-active">R13</button>
+                              <button class="product__item-btn">R14</button>
+                              <button class="product__item-btn">R15</button>
+                              <button class="product__item-btn">R16</button>
+                              <button class="product__item-btn">R17</button>
+                              <button class="product__item-btn">R18</button>
+                           </div>
+                           <div class="product__item-wrap">
+                              <div class="product__item-load">
+                                 <div>Нагрузка</div>
+                                 <span>86</span>
+                              </div>
+                              <div class="product__item-speed">
+                                 <div>Скорость</div>
+                                 <span>H</span>
+                              </div>
+                              <div class="product__item-link">
+                                 <a href="#">КУПИТЬ</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>   
+               </div>
+               <div class="product__block row">
+                  <div class="col-6 col-xl-3 product__item">
+                     <button class="product__close">
+                        <img src="img/page/close.svg" alt="X">
+                     </button>
+                     <div class="product__wrap-hover">
+                        <div class="product__foto">
+                           <img src="img/product/winter-CORDIANT-OFF.png" alt="#">
+                           <img class="product__nav-icon" src="img/product/i.svg" alt="i">
+                        </div>
+                        <div class="product__content">
+                           <div class="product__item-title">CORDIANT OFF-ROAD</div>
+                           <div class="product__item-subtitle">Безопасная шина для уверенной езды в жестких условиях бездорожья!</div>
+                        </div>
+                        <div class="product__item-hidden">
+                           <div class="product__item-nav">
+                              <button class="product__item-btn product__item-btn-active">R13</button>
+                              <button class="product__item-btn">R14</button>
+                              <button class="product__item-btn">R15</button>
+                              <button class="product__item-btn">R16</button>
+                              <button class="product__item-btn">R17</button>
+                              <button class="product__item-btn">R18</button>
+                           </div>
+                           <div class="product__item-wrap">
+                              <div class="product__item-load">
+                                 <div>Нагрузка</div>
+                                 <span>86</span>
+                              </div>
+                              <div class="product__item-speed">
+                                 <div>Скорость</div>
+                                 <span>H</span>
+                              </div>
+                              <div class="product__item-link">
+                                 <a href="#">КУПИТЬ</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-6 col-xl-3 product__item">
+                     <button class="product__close">
+                        <img src="img/page/close.svg" alt="X">
+                     </button>
+                     <div class="product__wrap-hover">
+                        <div class="product__foto">
+                           <img src="img/product/winter-CORDIANT-ROAD.png" alt="#">
+                           <img class="product__nav-icon" src="img/product/i.svg" alt="i">
+                        </div>
+                        <div class="product__content">
+                           <div class="product__item-title">CORDIANT  ROAD RUNNER</div>
+                           <div class="product__item-subtitle">Плавность хода</div>
+                        </div>
+                        <div class="product__item-hidden">
+                           <div class="product__item-nav">
+                              <button class="product__item-btn product__item-btn-active">R13</button>
+                              <button class="product__item-btn">R14</button>
+                              <button class="product__item-btn">R15</button>
+                              <button class="product__item-btn">R16</button>
+                              <button class="product__item-btn">R17</button>
+                              <button class="product__item-btn">R18</button>
+                           </div>
+                           <div class="product__item-wrap">
+                              <div class="product__item-load">
+                                 <div>Нагрузка</div>
+                                 <span>86</span>
+                              </div>
+                              <div class="product__item-speed">
+                                 <div>Скорость</div>
+                                 <span>H</span>
+                              </div>
+                              <div class="product__item-link">
+                                 <a href="#">КУПИТЬ</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-6 col-xl-3 product__item">
+                     <button class="product__close">
+                        <img src="img/page/close.svg" alt="X">
+                     </button>
+                     <div class="product__wrap-hover">
+                        <div class="product__foto">
+                           <img src="img/product/winter-CORDIANT-SPORT.png" alt="#">
+                           <img class="product__nav-icon" src="img/product/i.svg" alt="i">
+                        </div>
+                        <div class="product__content">
+                           <div class="product__item-title">CORDIANT SPORT 3</div>
+                           <div class="product__item-subtitle">Дорога под твоим контролем</div>
+                        </div>
+                        <div class="product__item-hidden">
+                           <div class="product__item-nav">
+                              <button class="product__item-btn product__item-btn-active">R13</button>
+                              <button class="product__item-btn">R14</button>
+                              <button class="product__item-btn">R15</button>
+                              <button class="product__item-btn">R16</button>
+                              <button class="product__item-btn">R17</button>
+                              <button class="product__item-btn">R18</button>
+                           </div>
+                           <div class="product__item-wrap">
+                              <div class="product__item-load">
+                                 <div>Нагрузка</div>
+                                 <span>86</span>
+                              </div>
+                              <div class="product__item-speed">
+                                 <div>Скорость</div>
+                                 <span>H</span>
+                              </div>
+                              <div class="product__item-link">
+                                 <a href="#">КУПИТЬ</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-6 col-xl-3 product__item">
+                     <button class="product__close">
+                        <img src="img/page/close.svg" alt="X">
+                     </button>
+                     <div class="product__wrap-hover">
+                        <div class="product__foto">
+                           <img src="img/product/winter-CORDIANT-SPORT-3.png" alt="#">
+                           <img class="product__nav-icon" src="img/product/i.svg" alt="i">
+                        </div>
+                        <div class="product__content">
+                           <div class="product__item-title">CORDIANT SPORT 3</div>
+                           <div class="product__item-subtitle">Для активного стиля вождения</div>
+                        </div>
+                        <div class="product__item-hidden">
+                           <div class="product__item-nav">
+                              <button class="product__item-btn product__item-btn-active">R13</button>
+                              <button class="product__item-btn">R14</button>
+                              <button class="product__item-btn">R15</button>
+                              <button class="product__item-btn">R16</button>
+                              <button class="product__item-btn">R17</button>
+                              <button class="product__item-btn">R18</button>
+                           </div>
+                           <div class="product__item-wrap">
+                              <div class="product__item-load">
+                                 <div>Нагрузка</div>
+                                 <span>86</span>
+                              </div>
+                              <div class="product__item-speed">
+                                 <div>Скорость</div>
+                                 <span>H</span>
+                              </div>
+                              <div class="product__item-link">
+                                 <a href="#">КУПИТЬ</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>   
+               </div>
+               <div class="product__link">
+                  <a href="#">КУПИТЬ ШИНЫ</a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   
+   <div class="question" id="question">
+      <div class="container">
+         <div class="row">
+            <div class="question__inner">
+               <div class="question__title">Часто задаваемые вопросы</div>
+               <div class="question__wrap">
+                  <div class="question__item">
+                     <div class="question__subtitle">Часто задаваемый вопрос #1</div>
+                     <button class="question__btn question__btn-active"><img class="question__arrow" src="img/question/btn-active.svg" alt="#"></button>
+                  </div>
+                  <div class="question__content question__content-active">
+                     <div class="question__text">Ответ на часто задаваемый вопрос №1. Ответ на часто задаваемый вопрос №1.  Ответ на часто задаваемый вопрос №1.  Ответ на часто задаваемый вопрос №1.</div>
+                  </div>
+                  <div class="question__item">
+                     <div class="question__subtitle">Часто задаваемый вопрос #2</div>
+                     <button class="question__btn"><img class="question__arrow" src="img/question/btn.svg" alt="#"></button>
+                  </div>
+                  <div class="question__content">
+                     <div class="question__text">Ответ на часто задаваемый вопрос №2. Ответ на часто задаваемый вопрос №1.  Ответ на часто задаваемый вопрос №1.  Ответ на часто задаваемый вопрос №2.</div>
+                  </div>
+                  <div class="question__item">
+                     <div class="question__subtitle">Часто задаваемый вопрос #3</div>
+                     <button class="question__btn"><img class="question__arrow" src="img/question/btn.svg" alt="#"></button>
+                  </div>
+                  <div class="question__content" id="question-last">
+                     <div class="question__text">Ответ на часто задаваемый вопрос №3. Ответ на часто задаваемый вопрос №1.  Ответ на часто задаваемый вопрос №1.  Ответ на часто задаваемый вопрос №3.</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <div class="contact" id="contact">
+      <div class="container">
+         <div class="contact__inner">
+            <div class="contact__title">Если у вас всё ещё остались вопросы</div>
+            <form class="contact__form" action="#" method="#">
+               <div class="contact__form-group">
+                  <input class="contact__form-input" type="text" placeholder="Ваше имя">
+                  <input class="contact__form-input" type="text" placeholder="Ваш e-mail">
+               </div>
+               <textarea class="contact__form-area" type="text" id="###" rows="5" placeholder="Введите ваш вопрос..."></textarea>
+               <div class="contact__form-group-btn">
+                  <div>
+                     <input class="contact__checkbox" type="checkbox" id="checkbox" checked="checked">
+                     <label class="contact__label" for="checkbox">Согласен(сна) с обработкой <br> персональных данных </label>
+                  </div>
+                  <input class="contact__btn" type="submit" placeholder="ОТПРАВИТЬ">
+               </div>
+            </form>
+            <img class="contact__foto" src="img/contact/wheel.svg" alt="#">
+         </div>
+      </div>
+   </div>
+
+   <footer class="footer">
+      <div class="container p-0">
+         <div class="row footer__inner">
+            <div class="col-12 col-md-2 footer__logo">
+               <img src="img/footer/auto.png" alt="#">
+               <div class="footer__copy">© АВТОМОБИЛЬ ГОДА 2000–2020</div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 footer__nav">
+               <div>
+                  <a class="footer__link" href="#" data-scroll="#about">ОБ АКЦИИ</a>
+                  <a class="footer__link" href="#" data-scroll="#test">ПРОЙТИ ТЕСТ</a>
+                  <a class="footer__link" href="#" data-scroll="#mod">МОДЕЛИ</a>
+               </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3 footer__wrap">
+               <div>
+                  <a class="footer__link" href="#" data-scroll="#question">ВОПРОС-ОТВЕТ</a>
+                  <a class="footer__link" href="#" data-scroll="#contact">ОБРАТНАЯ СВЯЗЬ</a>
+               </div>
+            </div>
+            <div class="col-12 col-md-4 footer__social">
+               <a href="#">
+                  <svg>
+                     <use xlink:href="sprite/sprite.svg#facebook"></use>
+                  </svg>
+               </a>
+               <a href="#">
+                  <svg>
+                     <use xlink:href="sprite/sprite.svg#youtube"></use>
+                  </svg>
+               </a>
+               <a href="#">
+                  <svg>
+                     <use xlink:href="sprite/sprite.svg#inst"></use>
+                  </svg>
+               </a>
+               <a href="#">
+                  <svg>
+                     <use xlink:href="sprite/sprite-soc.svg#vk"></use>
+                  </svg>
+               </a>
+               <a href="#">
+                  <svg>
+                     <use xlink:href="sprite/sprite-soc.svg#ok"></use>
+                  </svg>
+               </a>
+            </div>
+         </div>
+      </div>
+   </footer>
+
+   <!-- popup -->
+   <div class="popup-test">
+      <div class="container">
+         <div class="popup-test__inner">
+            <div class="popup-test__title">Под ваш стиль вождения отлично подойдут:</div>
+            <div class="popup-test__wrap">
+               <div class="popup-test__item">
+                  <img src="img/product/winter-CORDIANT-POLAR.png" alt="#">
+                  <div class="product__item-title">CORDIANT POLAR 2</div>
+                  <div class="popup-test__item-subtitle">Для комфортного вождения в мягких условиях</div>
+               </div>
+               <div class="popup-test__item">
+                  <img class="popup-test__item-foto" src="img/product/winter-CORDIANT-ROAD.png" alt="#">
+                  <div class="product__item-title">CORDIANT  ROAD RUNNER</div>
+                  <div class="popup-test__item-subtitle">Плавность хода</div>
+               </div>
+            </div>
+            <div class="popup-test__subtitle">Хочешь шины со скидкой 15%? Укажи кодовое слово <span>COMFORT</span> и получи промокод на покупку!</div>
+            <div class="popup-test__nav">
+               <button class="popup-test__btn">ВВЕСТИ КОДОВОЕ СЛОВО</button>
+               <a href="https://koleso.ru/" target="_blank"><button class="popup-test__link">ПЕРЕЙТИ НА KOLESO.RU</button></a>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <div class="popup-promo" id="popupPromo">
+      <div class="container">
+         <div class="popup-promo__inner">
+            <button class="popup-promo__close"><img id="infoPopup" src="img/page/close.svg" alt="#"></button>
+            <div class="popup-promo__wrap">
+               <div class="popup-promo__title">ВАШ ПРОМОКОД:</div>
+               <span>000000000</span>
+            </div>
+            <div class="popup-promo__subtitle">Введите ваш e-mail и мы отправим промокод вам на почту, чтобы вы его не потеряли</div>
+            <form class="popup-promo__form" action="">
+               <input class="popup-promo__input" type="text" placeholder="Ваш e-mail">
+               <input class="popup-promo__btn" type="submit" value="ПОЛУЧИТЬ НА ПОЧТУ">
+            </form>
+            <a class="popup-promo__link" href="">Перейти на сайт дилера</a>
+         </div>
+      </div>
+   </div>
+
+   <div class="popup-error" id="error">
+      <div class="container">
+         <div class="popup-error__inner">
+            <button class="popup-error__close"><img id="infoPopup" src="img/page/close.svg" alt="#"></button>
+            <div class="popup-error__title">К сожалению, вы ввели неверное кодовое слово. Проверьте <br> правильность написания и попробуйте еще раз.</div>
+            <div class="popup-error__subtitle">Если вы не помните кодовое слово, ищите его в видео <br> или пройдите тест.</div>
+         </div>
+      </div>
+   </div>
+
+   <div class="popup-error" id="thanks">
+      <div class="container">
+         <div class="popup-error__inner">
+            <button class="popup-error__close"><img id="infoPopup" src="img/page/close.svg" alt="#"></button>
+            <div class="popup-error__titile">Ваше письмо отправлено. <br> Спасибо, что связались с нами, ожидайте ответа по вашему вопросу!</div>
+         </div>
+      </div>
+   </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
